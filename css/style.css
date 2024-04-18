@@ -1,0 +1,252 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Header */
+
+.header-wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/amazon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.nav h4{
+    float: left;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.nav h5{
+    float: right;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.nav .light-text{
+    font-weight: 400;
+    font-size: 11px;
+}
+.nav span{
+    padding-right: 10px;
+}
+/* Navigation ends */
+
+
+/* Banner starts here */
+
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+
+.banner-text hr{
+    width: 100%;
+}
+
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: green;
+}
+
+.banner-text h1{
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+/* Banner ends */
+
+/* Two section starts */
+
+.full-wrapper{
+    width: 100%;
+    padding: 80px 0;
+    background-image: url("../img/fff.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.full-wrapper .fixed-width{
+    max-width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.two-section .fixed-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.two-section .fixed-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.two-section img{
+    width: 100%;
+}
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: gray;
+    height: 0.5px;
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.align-left{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.two-section button{
+    width: 150px;
+    height: 40px;
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+}
+/* Two section ends */
+
+/* Quote Starts */
+
+.full-quote{
+    text-align: center;
+    background-image: url("../img/night.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.full-quote p, .four-image-section p{
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.full-quote hr, .four-image-section hr{
+    width: 50%;
+}
+
+.full-quote h5, .four-image-section h5{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+/* Quote Ends */
+
+/* Four images starts */
+
+.four-image-section p{
+    color:aquamarine;
+    font-weight: bolder;
+}
+
+.four-images img{
+    width: 45%;
+    float: left;
+    margin-bottom: 5%;
+    border: 5px solid whitesmoke;
+}
+
+.four-images .left{
+    margin-left: 5%;
+}
+
+/* Four images ends */
+
+/* Footer Starts here */
+
+.footer-full{
+    background-image: url("../img/greenforest.jpg");
+    background-size: cover;
+    color: gray;
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+    color: olivedrab;
+}
+/* Footer Ends */
+
+/* Media Query Starts Here */
+
+@media only screen and (max-width:800px) and (min-width:200px){
+    .banner-text h1{
+        font-size: 80px;
+    }
+
+    .two-section .fixed-width .left{
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .two-section .fixed-width .right{
+        width: 100%;
+        padding-bottom: 20%;
+    }
+
+    .four-images img{
+        width: 100%;
+        clear: both;
+    }
+
+    .four-images .left{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:400px) and (min-width:200px){
+    .full-quote p, .four-image-section p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    .full-quote hr, .four-image-section hr{
+        width: 66%;
+    }
+    
+    .full-quote h5, .four-image-section h5{
+        font-size: 20px;
+    }
+}
+
+/* Media Query Ends */
